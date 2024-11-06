@@ -1,0 +1,11 @@
+.todo-form {
+    margin: 20px 0;
+  }
+  
+  .submit-button {
+    color: white;
+    background: #ff1493;
+    border: 1px solid #eee;
+    cursor: pointer;
+  }
+  

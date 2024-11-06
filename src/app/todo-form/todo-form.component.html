@@ -1,0 +1,5 @@
+<div class="todo-form">
+  <input type="text" [(ngModel)]="newTask" placeholder="New task">
+  <input type="number" [(ngModel)]="newDuration" placeholder="Duration (mins)">
+  <button (click)="onSave()" class="submit-button">Add Todo</button>
+</div>

@@ -1,0 +1,6 @@
+<div [class.completed]="todo.completed" class="todo-item">
+  <span>{{ todo.task }} ({{ todo.duration }} mins)</span>
+  <button *ngIf="!todo.completed" (click)="onComplete()" class="complete-button">Complete</button>
+  <button (click)="onRemove()" class="remove-button">X</button>
+</div>
+

@@ -1,10 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { CommonModule } from '@angular/common'; // Import CommonModule
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AppComponent],
+      declarations: [AppComponent],  // Declarations should include the component
+      imports: [CommonModule], // Add CommonModule if you are using directives like *ngFor, *ngIf
     }).compileComponents();
   });
 
